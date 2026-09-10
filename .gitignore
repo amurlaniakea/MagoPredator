@@ -1,0 +1,22 @@
+# Estáticos: salida de build (si algún día hay generador) y deps de frontend
+_site/
+node_modules/
+package-lock.json
+
+# Python (preview local / scripts de verificación)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Secretos y estado local — nunca commitear
+credentials/
+.env
+.hermes/
+.gnupg/
+.aws/
+
+# Sistema
+.DS_Store
+Thumbs.db
