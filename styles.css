@@ -90,9 +90,14 @@ section:last-child {
 .tarjeta {
   background: var(--superficie);
   border: 1px solid var(--borde);
+  border-left: 3px solid var(--acento);
   border-radius: 0.5rem;
   padding: 1rem 1.25rem;
   margin: 1rem 0;
+}
+
+.tarjeta:hover {
+  border-color: var(--acento);
 }
 
 .tarjeta h3 {
