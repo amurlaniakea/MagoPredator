@@ -87,6 +87,13 @@ section:last-child {
   color: var(--atenuado);
 }
 
+.hero-img {
+  max-width: 16rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
 .tarjeta {
   background: var(--superficie);
   border: 1px solid var(--borde);
