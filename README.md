@@ -102,16 +102,6 @@ graph TD
 
 ---
 
-## Verificación, CI y Transparencia
-
-- **CI:** `.github/workflows/ci.yml` — `LICENSE` verbatim (`661` líneas + `sha256` canónico), cabeceras `SPDX`, parse válido `HTML`.
-- **Anti-Leak:** `gitleaks` (`gitleaks/gitleaks-action@v2`). Ningún secreto (`api_key`, `token`) en `src/` ni `tests/`.
-- **Estado real:** Antes de cualquier afirmación de publicación (`dev.to`, `GitHub`), verificación con `curl -A Mozilla/5.0` (`HTTP 200`) y `grep` del `title` real. Nunca `self-report`.
-- **Auditoría:** Bugs críticos detectados por auditor independiente (`Claude` en clon fresco + `pytest` con evidencia cruda), no por autorreportaje.
-- **Documentación:** `MEMORY.md` (`/home/sil/.hermes/memories/`) y `LLM Wiki` (`Obsidian Vault/LLM Wiki/`), verificados y citados en sesiones.
-
----
-
 ## Contacto y Firma Técnica
 
 ```
