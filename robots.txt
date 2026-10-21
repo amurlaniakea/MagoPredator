@@ -35,4 +35,4 @@ User-agent: Applebot
 Allow: /
 
 # Sitemap
-Sitemap: https://netlify.app/sitemap.xml
+Sitemap: https://magopredator.netlify.app/sitemap.xml
