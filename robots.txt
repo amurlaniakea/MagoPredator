@@ -1,0 +1,38 @@
+# MagoPredator — Robots.txt
+# Site: https://netlify.app
+# License: AGPL-3.0-or-later
+
+User-agent: *
+Allow: /
+
+# Block aggressive / non-ethical AI scraping bots
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Omegabot
+Disallow: /
+
+# Explicit allow for legitimate search engines (redundant but clear)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap
+Sitemap: https://netlify.app/sitemap.xml
